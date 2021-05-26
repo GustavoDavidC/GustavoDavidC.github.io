@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(../img/tecnologia/fondo\ tecnologia.jpg);
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    
+    font-family: 'Playfair Display', serif;
+}
+
+.cabecera{
+    background-image: url(../img/tecnologia/cdn-3.expansion.mx.jpg);
+    background-size:cover;
+    height:100vh;
+}
+
+.cabecera h1{
+    margin: 0;
+    color: white;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    font-size: 3em;
+}
+
+nav{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    border: 0;
+    padding: 30px 50px 0 0;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:red;
+    font-size: 1.3em;
+}
+
+
+.cuerpo{
+    background-color: rgb(183, 208, 223);
+    width: 94%;
+    height: auto;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.titulo{
+    padding-bottom: 1%;
+}
+
+.seccion{
+    padding-bottom: 3%;
+}
+.contenido{
+    padding: 1%;
+}
+
+.interior{
+    display: flex;
+}
+
+.interior img{
+    margin-right: 1%;
+}
+
+.seccion2 img{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+footer{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: black;
+    color:white;
+    justify-content: space-around;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone, .location, .mail{
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.location{
+    color: red;
+}
+
+.mail{
+    color: rgb(100, 124, 197);
+}
+
+.phone{
+    color: orange;
+}
+
+.phone{
+    color: orange;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <!-- se coloca un favicon-->
+    <link rel="shortcut icon" href="../img/favicon.png" type="../image/x-icon">
+    <title>SVR Cámaras Seguridad</title>
+    <!-- se agregan los estilos css-->
+    <link rel="stylesheet" href="../css/estilosForm.css">
+    <!-- link de font Awesome para usar sus iconos-->
+    <script src="https://kit.fontawesome.com/726ddcb8a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="formulario">
+    
+        <a href="../html/index.html">
+            <i class="home fas fa-home" title="Volver al Inicio"></i></i>
+        </a>
+    
+   
+    <div class="titulo">
+        <h1>Formulario de Consultas</h1>
+    </div>
+    
+    <form action="" method="GET" name="formulario" onsubmit="return validar()">
+        <div class="div">
+            <i class="ico fas fa-user-alt"></i>
+            <input class="entrada" type="text" name="nombre" placeholder="Escribe tu Nombre"><br>
+        </div>
+        <p class="aviso"> El nombre solo permite letras y una cantidad de 2 hasta 40 </p><br>
+
+        <div class="div">
+            <i class="ico fas fa-user-alt"></i>
+            <input class="entrada" type="text" name="apellido" placeholder="Escribe tu Apellido"><br>
+        </div>
+        <p class="aviso"> El apellido solo permite letras y una cantidad de 2 hasta 40</p><br>
+
+        <div class="div">
+            <i class="ico fas fa-envelope"></i></i>
+            <input class="entrada" type="email" name="correo" placeholder="Escribe tu correo electronico"><br>
+        </div>
+        <p class="aviso"> El correo esta mal escrito</p><br>
+
+        <div class="div">
+            <i class="ico fas fa-phone-alt"></i>
+            <input class="entrada" type="text" name="telefono" placeholder="Escribe tu telefono o celular"><br>
+        </div>
+        <p class="aviso">El telefono solo permite numeros y una cantidad de 3 hasta 20</p><br>
+
+        <div class="div">
+            <i class="ico fas fa-comment-dots"></i>
+        <textarea class="entrada" name="comentarios" rows="10" cols="60" placeholder="Escribe tu mensaja"></textarea><br>
+        </div>
+        <div class="boton">
+            <i class="ico fas fa-share"></i>
+            <input class="bnt" type="submit" name="boton" value="Enviar Consulta">
+        </div>
+        
+        <p class="esta-vacio" id="esta-vacio"> Hay campos vacios</p><br>
+    </form>
+    <script src="../js/forumlario.js"></script>
+</div>
+
+</body>
+</html>

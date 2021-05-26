@@ -1,0 +1,122 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(../img/formulario/preguntas.jpg);
+    background-size: cover;                                               
+    background-attachment: fixed;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.formulario .titulo{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inicio{
+    position: absolute;
+    left: 550px;
+    
+}
+
+.formulario{
+    position: relative; 
+    width: 60%;
+    padding: 5%;
+    background-color: black;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home{
+    color: red;
+    position: absolute;
+    font-size:2.5em;
+    left: 90%;
+    top: 1%;
+    cursor: pointer;
+}
+
+.home:hover{
+    color: yellow;
+}
+
+.entrada {
+    width: 90%;
+    background-color: rgb(238, 237, 237);
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.bnt{
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(76, 76, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.bnt:hover{
+    background-color: cadetblue;
+}
+
+.ico {
+    font-size:2.5em;
+    color: blue;
+    margin-right: 3%;
+}
+
+.aviso{
+    visibility: hidden;
+    margin-bottom: 3%;
+}
+
+.aviso-ok{
+    color: red;
+    visibility: visible;
+    margin-bottom: 3%;
+}
+
+.esta-vacio{
+    visibility: hidden;
+}
+
+.esta-vacio-si{
+    color: red;
+    visibility: visible;
+}
+
+.div{
+    display: flex;
+}
+
+.boton{
+    display: flex;
+    margin-top: 5%;
+}
+
+.mal{
+    color: red;
+    visibility: visible;
+}
+
+p{
+    text-align: center;
+}

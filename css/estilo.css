@@ -1,0 +1,25 @@
+body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    background-color: #F2691E;
+    padding: 10px;
+}
+
+td{
+    background-color: #FFDEAD;
+    padding: 10px;
+}
+
+a:visited{
+    color: #FF4500;
+}
+
+a:hover{
+    background-color: #CD853F;
+}
+

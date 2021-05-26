@@ -1,0 +1,207 @@
+/* Estilos para toda la pagína*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(192, 188, 188);
+
+}
+
+/* cabecera (header) */
+
+
+header{
+    width:100%;
+    height: 100vh;
+    background-image: url(../img/PORTADA-SEGURO!!!w.jpg);
+    background-size: cover;                                               
+    background-attachment: fixed;
+    position: relative;
+}
+
+header img{
+    border-radius: 100%;
+    position:absolute;
+   
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:red;
+    font-size: 1.3em;
+}
+
+.frase-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Zen Dots', cursive;
+    height: 600px;
+    width: 100%;
+    font-size: 2.5em;
+    color:white;
+}
+
+/* Cuerpo de la página*/
+
+.cuerpo1, .cuerpo2{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.seccion{
+    margin: 5px 0;
+    position: relative;
+}
+
+.texto h2{
+    margin: 0px 0 30px;
+    font-size: 1.8em;
+    color:white;
+}
+
+.h2cont{
+    margin: 50px 0 50px;
+    font-size: 1.8em;
+}
+
+.texto{
+    background-color: #394a52 ;
+    padding: 30px;
+    color:white;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.txt{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+  
+}
+
+.i{
+    opacity: 1;
+    
+    transition-delay: 200ms;
+}
+
+.i:hover{
+    transition-delay: 200ms;
+    opacity: 0.6;
+    
+}
+
+.boton{       
+    
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-color: grey;
+    text-decoration: none;
+    font-size: 0.7em;
+    color: white;
+}
+
+.boton a{
+    font-size: 0.7em;
+}
+
+.boton:hover{
+    background-color: rgb(6, 6, 105);
+}
+
+.boton a:link{
+    color:white;
+    text-decoration: none;
+    
+}
+
+/* Información relacionada con la pagína u otros intereses (aside) */
+
+aside{
+    background-color: #687981 ;
+    padding: 38px 10px;
+}
+
+aside h3{
+    padding-left: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+.texto-aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto-aside img{
+    margin-right: 20px;
+}
+
+
+/* Aquí comienza el pie de pagína (footer) */
+
+footer{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: black;
+    color:white;
+    justify-content: space-around;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone, .location, .mail{
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.location{
+    color: red;
+}
+
+.mail{
+    color: rgb(100, 124, 197);
+}
+
+.phone{
+    color: orange;
+}
