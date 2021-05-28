@@ -46,10 +46,6 @@ body{
     height: 600px;;
 }
 
-.img-no{
-    display: none;
-}
-
 button{
     padding: 1px 30px;
     height: 600px;
@@ -60,7 +56,6 @@ button{
 
 button:hover{
     background-color: rgb(7, 9, 94);
-
 }
 
 .explicacion{
