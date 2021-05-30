@@ -72,3 +72,7 @@ button:hover{
 b{
     font-size: 2em;
 }
+
+.oculto{
+    display: none;
+}
