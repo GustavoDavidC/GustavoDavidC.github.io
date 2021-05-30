@@ -13,17 +13,10 @@ body{
 
 /* cabecera */
 
-.cabecera img{
-    border-radius: 100%;
-    position:absolute;
-   
-}
-
 .cabecera{
     background-image: url(../img/historia/portada3.jpg);
     height: 100vh;
     background-size: cover;
-    position: relative;
 }
 
 .cabecera h1{
@@ -104,6 +97,8 @@ p{
     width: 50%;
     font-size: 1.2em;
 }
+
+/* Aquí comienza el pie de pagína (footer) */
 
 footer{
     display: flex;

@@ -93,6 +93,8 @@ p{
     margin-bottom: 3%;
 }
 
+/* Aquí comienza el pie de pagína (footer) */
+
 footer{
     display: flex;
     height: 200px;
@@ -123,10 +125,6 @@ footer{
 
 .mail{
     color: rgb(100, 124, 197);
-}
-
-.phone{
-    color: orange;
 }
 
 .phone{

@@ -161,11 +161,29 @@ aside h3{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-weight: bold;
 }
 
 .texto-aside img{
     margin-right: 20px;
 }
+
+.otros{
+    text-decoration: none;
+    color: rgb(5, 5, 92);
+    
+}
+
+.otros:hover{
+    color: rgb(199, 3, 3);
+}
+
+.otros:active{
+    color: orange;
+}
+
+
+
 
 
 /* Aquí comienza el pie de pagína (footer) */
