@@ -7,6 +7,17 @@ const nombre= /^[a-zÑñA-ZÀ-ÿ\s]{2,40}$/,
 	telefono= /^\d{3,20}$/ ;
 const validaciones = [nombre, apellido, correo, telefono];
 
+function grabar(){
+    var padre = document.getElementById("padre");
+    var hijo1 = document.createElement("li");
+    padre.appendChild(hijo1);
+    for(var i=0; i<5; i++){
+        var hijo2 = document.createElement("h5");
+        hijo2.innerHTML =formulario.getElementsByClassName("entrada")[i].name+": "+formulario.getElementsByClassName("entrada")[i].value;
+        hijo1.appendChild(hijo2);
+    }
+}
+
 formulario.addEventListener("submit", (e)=>{
     let verificacion =0;
     e.preventDefault();
@@ -32,7 +43,11 @@ formulario.addEventListener("submit", (e)=>{
 
     if(verificacion==0){
         alert("formulario enviado!");
-        formulario.submit();
+        grabar();
+        for(var i=0; i<5; i++){
+            formulario.getElementsByClassName("entrada")[i].value="";
+        }
+
     }
 })
    
